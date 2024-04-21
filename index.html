@@ -106,23 +106,7 @@
         </div>
     </div>
 
-    <script>
-
-         function dateCalculate() {
-            const firstDate = document.getElementById('firstDate').value;
-            const secondDate = document.getElementById('secondDate').value;
-
-            const date1 = new Date(firstDate);
-            const date2 = new Date(secondDate);
-
-            const difference = Math.abs(date2 - date1);
-
-            const days = Math.round(difference / (1000 * 60 * 60 * 24));
-
-            const dayElement = document.getElementById('daysCount');
-            dayElement.innerText = ` The Difference between the dates is ${days}  ${days > 1 ? 'days' :  'day' }🎉`;
-
-        }
+   
 
     
     </script>
